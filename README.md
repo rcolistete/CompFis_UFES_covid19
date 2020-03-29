@@ -26,11 +26,24 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
 
-2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos via vibração detectada por acelerômetro, usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
+2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos via vibração detectada por acelerômetro, usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc. Por exemplo, em respiradores mecânicos;
+
+2.2) nano-micro espectrômetros portáteis para medição de espectros de transmissão de concentração de materiais (de higiene, etc) usados em hospitais, p. e., para obter a concentração correta de água sanitária com água, etc;
 
 ### 3) Monitoramento e Vigilância
 
-3.1)
+Dispositivos diversos para monitorar remotamente via IoT Cloud condições ambientais, bem como fazer vigilância de locais, permitindo menor presença humana e distanciamento social. Tais itens abaixo também são aplicáveis na categoria acima.
 
+3.1) monitoramento com sensores de temperatura e umidade de ambientes (datacenters, hospitais, etc) que precisam dessas grandezas controladas, p. e., que tenham ar-condicionado, frigorífico, etc, funcionando dentro de uma janela de temperatura & umidade aceitáveis. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
+
+3.2) monitoramento de presença e vigilância de ambientes via sensores de distância IR (dectando abertura de porta, etc), de luz (acendida ao alguém entrar em sala), PIR (presença infravermelha), etc. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar ocorrências;
+
+### 4) Comunicação de longa distância sem infraestrutura convencional
+
+Uso de LoRa ou SigFox em ambientes sem infraestrutura de WiFi, 3G/4G ou mesmo energia elétrica para comunicação de dados de sensores, geolocalização, mensagens curtas de pessoas, etc.
+
+4.1) nó LoRaWan/LoRa-Mac para envio de dados de sensores diversos, com baixo consumo de energia, com alimentação opcional via painel solar;
+
+4.2) nó LoRa-Mac com protocolo optimizado para comunicação ponto-a-ponto (e talvez LoRa Mesh), sem precisar de gateway (concentrador), para enviar/receber mensagens curtas, posicionamento GPS, etc. Capaz de varrer canais, ter teclas para entrada de texto, ser portátil, com baixo consumo de energia, com alimentação opcional via painel solar.
 
 
