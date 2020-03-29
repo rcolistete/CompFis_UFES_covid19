@@ -7,7 +7,7 @@
 - integrar, motivar e coordenar (ex-)alunos da UFES para participar no esforço necessário para combater ao covid-19, fundamental para o futuro da sociedade humana a médio prazo.
 
 ## Metodologia :
-- direcionar parte dos esforços dos envolvidos em [projetos de Computação Científica e IoT da UFES](https://drive.google.com/file/d/1JC3Wn8L6f_7-o8PXfcOIMdSKvCxBXqVs/view?usp=sharing) para auxiliar no combate ao covid-19. A contribuição de outros voluntários externos a esses projetos também será bem-vinda;
+- direcionar parte dos esforços dos envolvidos em projetos de Computação Científica e IoT da UFES para auxiliar no combate ao covid-19. A contribuição de outros voluntários externos a esses projetos também será bem-vinda;
 - uso dual de projetos já envolvidos, com adaptações pequenas para aplicação diversa do que foi planejado;
 - criação de novos projetos visando especificamente atividades de combate ao covid-19;
 - uso de trabalho à distância colaborativo entre váris pessoas via ferramentas diversas como repositórios, emails, 
@@ -26,7 +26,7 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
 
-2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos via vibração detectada por acelerômetro, usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc. Por exemplo, em respiradores mecânicos;
+2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos via vibração detectada por acelerômetro (e/ou geofone ?), usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc. Por exemplo, em respiradores mecânicos;
 
 2.2) nano-micro espectrômetros portáteis para medição de espectros de transmissão de concentração de materiais (de higiene, etc) usados em hospitais, p. e., para obter a concentração correta de água sanitária com água, etc;
 
