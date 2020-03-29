@@ -10,7 +10,7 @@
 - direcionar parte dos esforços dos envolvidos em projetos de Computação Científica e IoT da UFES para auxiliar no combate ao covid-19. A contribuição de outros voluntários externos a esses projetos também será bem-vinda;
 - uso dual de projetos já envolvidos, com adaptações pequenas para aplicação diversa do que foi planejado;
 - criação de novos projetos visando especificamente atividades de combate ao covid-19;
-- uso de trabalho à distância colaborativo entre váris pessoas via ferramentas diversas como repositórios, emails, 
+- uso de trabalho à distância colaborativo entre várias pessoas via ferramentas diversas como repositórios, emails, 
 videoconferências, redes sociais, etc;
 - apresentação/publicação de resultados em repositórios públicos, sites, blogs, redes sociais, conferências, revistas científicas, etc.
 
@@ -45,5 +45,7 @@ Uso de LoRa ou SigFox em ambientes sem infraestrutura de WiFi, 3G/4G ou mesmo en
 4.1) nó LoRaWan/LoRa-Mac para envio de dados de sensores diversos, com baixo consumo de energia, com alimentação opcional via painel solar;
 
 4.2) nó LoRa-Mac com protocolo optimizado para comunicação ponto-a-ponto (e talvez LoRa Mesh), sem precisar de gateway (concentrador), para enviar/receber mensagens curtas, posicionamento GPS, etc. Capaz de varrer canais, ter teclas para entrada de texto, ser portátil, com baixo consumo de energia, com alimentação opcional via painel solar.
+
+**Mais ideias ???**
 
 
