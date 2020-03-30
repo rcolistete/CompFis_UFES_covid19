@@ -22,6 +22,8 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 1.1) [uPyBodyTempIR - Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller](https://github.com/rcolistete/uPyBodyTempIR) : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT (when available);
 
+1.2) [capnografo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais. 
+
 ### 2) Automação e ferramental hospitalar
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
@@ -36,7 +38,9 @@ Dispositivos diversos para monitorar remotamente via IoT Cloud condições ambie
 
 3.1) monitoramento com sensores de temperatura e umidade de ambientes (datacenters, hospitais, etc) que precisam dessas grandezas controladas, p. e., que tenham ar-condicionado, frigorífico, etc, funcionando dentro de uma janela de temperatura & umidade aceitáveis. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
 
-3.2) monitoramento de presença e vigilância de ambientes via sensores de distância IR (dectando abertura de porta, etc), de luz (acendida ao alguém entrar em sala), PIR (presença infravermelha), etc. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar ocorrências;
+3.2) monitoramento de qualidade do ar com sensores de [VOC (CCS811)](https://ams.com/ccs811) e de [gás CO2 (SCD30)](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) em ambientes com  presença humana. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre índices não saudáveis;
+
+3.3) monitoramento de presença e vigilância de ambientes via sensores de distância IR (detectando abertura de porta, pessoa passando, etc), de luz (acendida ao alguém entrar em sala), PIR (presença infravermelha), etc. Uso de IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar ocorrências;
 
 ### 4) Comunicação de longa distância sem infraestrutura convencional
 
