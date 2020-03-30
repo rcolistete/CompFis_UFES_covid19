@@ -22,15 +22,19 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 1.1) [uPyBodyTempIR - Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller](https://github.com/rcolistete/uPyBodyTempIR) : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT (when available);
 
-1.2) [capnografo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais. 
+1.2) [capnógrafo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais; 
 
 ### 2) Automação e ferramental hospitalar
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
 
-2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos via vibração detectada por acelerômetro (e/ou geofone ?), usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc. Por exemplo, em respiradores mecânicos;
+2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos (p. e., ventiladores respiratórios) via vibração detectada por acelerômetro (e/ou geofone ?), usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
 
 2.2) nano-micro espectrômetros portáteis para medição de espectros de transmissão de concentração de materiais (de higiene, etc) usados em hospitais, p. e., para obter a concentração correta de água sanitária com água, etc;
+
+2.3) dispositivo com sensor Geiger para medição de radiação em salas com raios-X, para monitorar se as dosagens dos funcionários e pacientes estão dentro dos padrões permitidos. Usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
+
+2.4) dispositivo com [magnetômetro fluxgate FLC-100](https://www.stefan-mayer.com/en/products/magnetometers-and-sensors/magnetic-field-sensor-flc-100.html) para monitorar se campo magnético está dentro de padrões aceitáveis em ambientes hospitalares (para evitar interferência em equipamentos de UTI, bem como niveis saudáveis para as equipes médicas e pacientes). Versão portátil ou fixa, mas pode também fazer uso de  IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre níveis altos, etc;
 
 ### 3) Monitoramento e Vigilância
 
