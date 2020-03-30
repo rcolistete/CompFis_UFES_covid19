@@ -10,6 +10,7 @@
 - direcionar parte dos esforços dos envolvidos em projetos de Computação Científica e IoT da UFES para auxiliar no combate ao covid-19. A contribuição de outros voluntários externos a esses projetos também será bem-vinda;
 - uso dual de projetos já envolvidos, com adaptações pequenas para aplicação diversa do que foi planejado;
 - criação de novos projetos visando especificamente atividades de combate ao covid-19;
+- uso de hardware e software de alta produtividade, como MicroPython em microcontroladores, etc;
 - uso de trabalho à distância colaborativo entre várias pessoas via ferramentas diversas como repositórios, emails, 
 videoconferências, redes sociais, etc;
 - apresentação/publicação de resultados em repositórios públicos, sites, blogs, redes sociais, conferências, revistas científicas, etc.
@@ -22,19 +23,19 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 1.1) [uPyBodyTempIR - Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller](https://github.com/rcolistete/uPyBodyTempIR) : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT (when available);
 
-1.2) [capnógrafo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais; 
+1.2) uPyCapnograph - [capnógrafo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais; 
 
 ### 2) Automação e ferramental hospitalar
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
 
-2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos (p. e., ventiladores respiratórios) via vibração detectada por acelerômetro (e/ou geofone ?), usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
+2.1) dispositivos para monitorar funcionamento de equipamentos mecânicos (p. e., ventiladores respiratórios) via movimento/vibração detectada por IMU (acelerômetro ou geofone se tiver vantagens, talvez giroscópio), usando IoT (Bluetooth + WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
 
 2.2) nano-micro espectrômetros portáteis para medição de espectros de transmissão de concentração de materiais (de higiene, etc) usados em hospitais, p. e., para obter a concentração correta de água sanitária com água, etc;
 
 2.3) dispositivo com sensor Geiger para medição de radiação em salas com raios-X, para monitorar se as dosagens dos funcionários e pacientes estão dentro dos padrões permitidos. Usando IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre não funcionamento, etc;
 
-2.4) dispositivo com [magnetômetro fluxgate FLC-100](https://www.stefan-mayer.com/en/products/magnetometers-and-sensors/magnetic-field-sensor-flc-100.html) para monitorar se campo magnético está dentro de padrões aceitáveis em ambientes hospitalares (para evitar interferência em equipamentos de UTI, bem como niveis saudáveis para as equipes médicas e pacientes). Versão portátil ou fixa, mas pode também fazer uso de  IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre níveis altos, etc;
+2.4) uPyFLC100 - dispositivo com [magnetômetro fluxgate FLC-100](https://www.stefan-mayer.com/en/products/magnetometers-and-sensors/magnetic-field-sensor-flc-100.html) para monitorar se campo magnético está dentro de padrões aceitáveis em ambientes hospitalares (para evitar interferência em equipamentos de UTI, bem como niveis saudáveis para as equipes médicas e pacientes). Versão portátil ou fixa, mas pode também fazer uso de  IoT (WiFi ou LoRa ou SigFox) para monitorar e alertar sobre níveis altos, etc;
 
 ### 3) Monitoramento e Vigilância
 
@@ -52,7 +53,7 @@ Uso de LoRa ou SigFox em ambientes sem infraestrutura de WiFi, 3G/4G ou mesmo en
 
 4.1) nó LoRaWan/LoRa-Mac para envio de dados de sensores diversos, com baixo consumo de energia, com alimentação opcional via painel solar;
 
-4.2) nó LoRa-Mac com protocolo optimizado para comunicação ponto-a-ponto (e talvez LoRa Mesh), sem precisar de gateway (concentrador), para enviar/receber mensagens curtas, posicionamento GPS, etc. Capaz de varrer canais, ter teclas para entrada de texto, ser portátil, com baixo consumo de energia, com alimentação opcional via painel solar.
+4.2) uPyLoRaMessenger - nó LoRa-Mac com protocolo optimizado para comunicação ponto-a-ponto (e talvez LoRa Mesh), sem precisar de gateway (concentrador), para enviar/receber mensagens curtas, posicionamento GPS, etc. Capaz de varrer canais ou usar canal previamente selecionado. Interface opcional com tela (OLED ou epaper) e teclas para entrada de texto. Interface opcional via modo ponto-de-acesso WiFi Access + servidor web (acessível a partir de smartphone, etc). Com baixo consumo de energia, bateria, com alimentação opcional via painel solar.
 
 **Mais ideias ???**
 
