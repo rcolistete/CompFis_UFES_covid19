@@ -2,6 +2,9 @@
 
 #### [Prof. Roberto Colistete Jr.](mailto:roberto.colistete@gmail.com) - [Dep. de Química e Física - CCENS - UFES-Alegre](http://alegre.ufes.br/ccens/departamento-de-quimica-e-fisica)
 
+Sites com iniciativas de combate ao covid-19 :
+- [Inovativa Brasil - Coronavírus](https://www.inovativabrasil.com.br/coronavirus/);
+
 ## Objetivos :
 - entregar a instuições públicas como hospitais, etc, em prazo de (poucas) semanas, dispositivos empregando Computação Física (sensores + atuadores + microcontroladores/computadores de placa única) & IoT (WiFi, Bluetooth, LoRa, etc) úteis para atividades relacionadas com combate ao covid-19, direta ou indiretamente;
 - integrar, motivar e coordenar (ex-)alunos da UFES para participar no esforço necessário para combater ao covid-19, fundamental para o futuro da sociedade humana a médio prazo.
