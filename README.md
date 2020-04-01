@@ -24,7 +24,7 @@ videoconferências, redes sociais, etc;
 
 Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
-1.1) [uPyBodyTempIR - Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller](https://github.com/rcolistete/uPyBodyTempIR) : a low cost and open device to detect human body (head) temperature to help detect fever (due to covid-19 or not), using IoT (when available);
+1.1) [uPyBodyTempIR - Body Temperature IR Meter with MLX90615 sensor and MicroPython microcontroller](https://github.com/rcolistete/uPyBodyTempIR) : dispositivo de baixo custo e aberto para detectar temperatura do corpo humano (cabeça) a fim de auxiliar na detecção de febre (que pode ser ou não devido ao covid-19), usando IoT (quando disponível);
 
 1.2) uPyCapnograph - [capnógrafo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais; 
 
