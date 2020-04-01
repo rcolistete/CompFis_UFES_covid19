@@ -28,6 +28,8 @@ Uso de sensores e atuadores com qualidade suficiente para uso médico :
 
 1.2) uPyCapnograph - [capnógrafo](https://en.wikipedia.org/wiki/Capnography) usando [sensor I2C SCD30 de gás CO2](https://www.sensirion.com/en/environmental-sensors/carbon-dioxide-sensors/carbon-dioxide-sensors-co2/) ? Esse tipo sensor, NDIR, é usado em [capnógrafos profissionais](https://www.howequipmentworks.com/capnography/), que custam milhares de R$. O dispositivo usaria tela para interface local e IoT (via WiFi ou LoRa) para monitorar e alertar sobre índices anormais; 
 
+1.3) uPyLampUVC - automação com IoT de lâmpadas UVC germicidas para uso em esterilização em hospitais, etc. Usará microcontrolador de baixo custo com WiFi e relê, acionando via software (ponto de acesso WiFi + servidor web local rodando página web como interface). Opcionais : sensor PIR para garantir que não pessoas próximo da lâmpada UVC; sensor UV para confirmar que a lâmpada está ligada e tentar medir a irradiância UVC sobre a superfície a ser esterilizada a fim de calcular automaticamente quanto tempo a lâmpada UVC precisa ficar ligada.
+
 ### 2) Automação e ferramental hospitalar
 
 Dispositivos diversos para monitorar condições de funcionamento dos ambientes, equipamentos, etc, hospitalares
